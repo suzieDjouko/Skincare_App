@@ -1,10 +1,12 @@
-# 🧴 Skincare Fullstack Web Application (SoSe 2025)
+# Live Demo: https://davinshop.netlify.app/
+
+# Skincare Fullstack Web Application (SoSe 2025)
 
 Diese Webanwendung ist ein Fullstack-Projekt im Bereich E-Commerce und Hautpflege. Die Plattform ermöglicht es Benutzer:innen, Hautpflegeprodukte zu kaufen sowie eine personalisierte Hautanalyse durchzuführen. Die Analyse basiert auf einem hochgeladenen Foto, das mithilfe eines Algorithmus Hautunreinheiten erkennt (z. B. Akne, Rötungen, Trockenheit). Anschließend werden passende Produkte empfohlen.
 
 Neben der Analyse bietet die Plattform einen klassischen Online-Shop, in dem Benutzer:innen weitere Produkte entdecken, in den Warenkorb legen und kaufen können.
 
-## 🚀 Ziel
+## Ziel
 
 Entwicklung einer modernen und interaktiven Webanwendung, die zwei zentrale Funktionen vereint:
 
@@ -20,13 +22,13 @@ Das Projekt legt besonderen Wert auf:
 
 ---
 
-## 🧩 Funktionen (User Stories)
+##  Funktionen (User Stories)
 
-### 👤 Als anonymer Benutzer
+###  Als anonymer Benutzer
 
 - Als anonymer Benutzer möchte ich mich registrieren und einloggen können, damit ich auf personalisierte Funktionen zugreifen kann.
 
-### 🧑‍💻 Als eingeloggter Benutzer
+###  Als eingeloggter Benutzer
 
 - Als eingeloggter Benutzer möchte ich ein Foto von meinem Gesicht hochladen können, damit meine Haut analysiert wird.
 - Als eingeloggter Benutzer möchte ich die Analyseergebnisse mit klaren Empfehlungen sehen, damit ich gezielt Produkte auswählen kann.
@@ -36,7 +38,7 @@ Das Projekt legt besonderen Wert auf:
 - Als eingeloggter Benutzer möchte ich eine Bestellung abschließen und bezahlen können, damit ich die gewünschten Produkte erhalte.
 - Als eingeloggter Benutzer möchte ich ein Hauttypen-Quiz ausfüllen, damit mein Hauttyp automatisch bestimmt wird.
 
-### 🔐 Als Administrator
+###  Als Administrator
 
 - Als Admin möchte ich Produkte erstellen, bearbeiten und löschen können, damit das Sortiment aktuell bleibt.
 - Als Admin möchte ich die Benutzerliste sehen können, um die Plattform zu verwalten.
@@ -92,19 +94,19 @@ Run this to start the backend test:
 npm test
 ```
 
-## 🧠 Schritt 1: Modellierung
+##  Schritt 1: Modellierung
 
-### 📌 Use-Case-Diagramm
+###  Use-Case-Diagramm
 
 ![Use Case Diagramm](./Utils/use_case.png)
 
 ---
 
-## 📷 Produktbilder mit imgbb
+##  Produktbilder mit imgbb
 
 Für die Darstellung der Hautpflegeprodukte in der Anwendung nutzen wir den Online-Dienst [imgbb](https://imgbb.com/)
 
-### 🔄 Vorgehensweise
+###  Vorgehensweise
 
 1. Das Produktbild wird lokal ausgewählt und auf der Webseite [imgbb.com](https://imgbb.com/) hochgeladen.
 2. Nach dem Hochladen wird das Bild digitalisiert und online gespeichert.
@@ -112,7 +114,7 @@ Für die Darstellung der Hautpflegeprodukte in der Anwendung nutzen wir den Onli
 4. Dieser Link wird anschließend in unserer **Datenbank** gespeichert, in einem Produktobjekt unter dem Feld `imageUrl`.
 5. Beim Abrufen der Produkte wird dieser Link genutzt, um das Bild im Frontend anzuzeigen.
 
-### 📦 Beispiel
+###  Beispiel
 
 ```json
 {
@@ -125,7 +127,7 @@ Für die Darstellung der Hautpflegeprodukte in der Anwendung nutzen wir den Onli
 
 ---
 
-## 🧼 Code Style & Formatierung
+##  Code Style & Formatierung
 
 Dieses Projekt verwendet [Prettier](https://prettier.io/) zur automatischen Codeformatierung, sowohl im Backend als auch im Frontend.
 
@@ -149,9 +151,9 @@ Dieses Projekt verwendet [Prettier](https://prettier.io/) zur automatischen Code
 [Figma](https://www.figma.com/design/l1hI7hAW5CqpYSgz5H3VtK/Pages?node-id=0-1&p=f&t=1BTEq4ENc5775i97-0)
 ![figma_page1](./Utils/figma_page2.jpg)
 
-## 🖼️ Screenshots
+##  Screenshots
 
-### 🏠 Startseite
+###  Startseite
 
 <p align="center">
   <img src="./Utils/startseite.png" alt="Startseite" width="700"/>
@@ -159,7 +161,7 @@ Dieses Projekt verwendet [Prettier](https://prettier.io/) zur automatischen Code
 
 ---
 
-### 🧪 Hautanalyse – Bildauswertung
+###  Hautanalyse – Bildauswertung
 
 <p align="center">
   <img src="./Utils/analyse_seite.png" alt="Analyse" width="700"/>
@@ -167,7 +169,7 @@ Dieses Projekt verwendet [Prettier](https://prettier.io/) zur automatischen Code
 
 ---
 
-### 🧴 Produkte
+###  Produkte
 
 <p align="center">
   <img src="./Utils/produkte_seite.png" alt="Analyse" width="700"/>
@@ -175,7 +177,7 @@ Dieses Projekt verwendet [Prettier](https://prettier.io/) zur automatischen Code
 
 ---
 
-### 🛒 Warenkorb & Bestellung
+###  Warenkorb & Bestellung
 
 <p align="center">
   <img src="./Utils/Bestellung_und_Warenkorb.png" alt="Warenkorb" width="700"/>
@@ -183,13 +185,13 @@ Dieses Projekt verwendet [Prettier](https://prettier.io/) zur automatischen Code
 
 ---
 
-### 🛒Admin Seite
+### Admin Seite
 
 <p align="center">
   <img src="./Utils/Admin_Page.png" alt="Warenkorb" width="700"/>
 </p>
 
-## 📚 Offizielle Dokumentationen & Nützliche Tools
+##  Offizielle Dokumentationen & Nützliche Tools
 
 ### Backend-Entwicklung
 
